@@ -1,12 +1,114 @@
-<html>
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
   <head>
-    <title></title>
+    <meta charset="utf-8">
+    <!-- If you delete this meta tag World War Z will become a reality -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation 5</title>
+
+    <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+
     <link rel="stylesheet" href="css/foundation.css">
-  <head>
-    <body>
-      <form>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- If you are using the gem version, you need this only -->
+    <link rel="stylesheet" href="css/app.css">
 
-      </form>
+    <script src="js/vendor/modernizr.js"></script>
 
-    </body>
+  </head>
+
+  <body>
+    <p> Grid system!!</p>
+    <div class="grid-x grid-margin-x">
+      <!-- You can add a space between your columns using grid-margin-x
+           grid-x (horizontal) grid-y (vertical)-->
+
+      <div class="small-4 cell" style="background-color: lightsalmon">
+        <div class="grid-x">
+
+          <div class="medium-6 cell" style="border: 1px solid lightblue;">           Lorem ipsum dolor sit amet
+          </div>
+
+          <div class="medium-6 cell" style="border: 1px solid black;">
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          </div>
+
+        </div>
+      </div>
+
+      <div class="small-8 cell" style="background-color: lightgreen">
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+
+        <strong> Here's a menu bar... sorta </strong>
+         <!-- Allows you to list things next to each other if you add class=menu -->
+        <ul class="menu">
+          <li><a href="#main_content"><i class="fi-list"></i> <span>home</span></a></li>
+          <li><a href="#lalala"><i class="fi-list"></i> <span>lalalala</span></a></li>
+          <li><a href="#lele"><i class="fi-list"></i> <span>lelele</span></a></li>
+          <li><a href="#lolo"><i class="fi-list"></i> <span>lolololo</span></a></li>
+        </ul>
+         <!-- Cool block quote!! -->
+        <strong> c00l qu0te$ </strong>
+        <blockquote>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <cite>bob shnickles</cite>
+        </blockquote>
+        <strong>what is a <span class="label">label</span>
+          i wonder?!?!? do u wonder?!?!?!</strong>
+        <br>
+        <!-- find ur way around the site ezpz -->
+
+        C00ler navbar!! check it out! :D
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <ul class="dropdown menu">
+              <li class="menu-text">Cool menu ;) ;)</li>
+              <li><a href="#L">L</a></li>
+              <li><a href="#O">O</a></li>
+              <li><a href="#L">L</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search"></li>
+              <li><button type="button" class="button">Search</button></li>
+            </ul>
+          </div>
+        </div>
+
+         <!-- Throwback 2 switches from nlogo -->
+        <div class="switch tiny">
+          <input class="switch-input" id="tinySwitch" type="checkbox" name="exampleSwitch">
+          <label class="switch-paddle" for="tinySwitch">
+          </label>
+        </div>
+
+         <!-- Tabs!!-->
+        <ul class="tabs" data-tabs id="example-tabs">
+          <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
+          <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
+
+        </ul>
+
+        <div class="tabs-content" data-tabs-content="example-tabs">
+          <div class="tabs-panel is-active" id="panel1">
+            <p>Lorum Ipsum</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus nec feugiat. Adipiscing elit ut aliquam purus. Orci a scelerisque purus semper eget duis at tellus at. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Arcu non odio euismod lacinia. Mi quis hendrerit dolor magna eget est lorem.</p>
+          </div>
+
+          <div class="tabs-panel" id="panel2">
+            <p>Two</p>
+           Tristique et egestas quis ipsum suspendisse. Volutpat blandit aliquam etiam erat velit scelerisque in dictum non. Ac tincidunt vitae semper quis lectus. Pulvinar elementum integer enim neque. Aliquet enim tortor at auctor urna nunc id cursus metus. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Aliquet porttitor lacus luctus accumsan. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Ultricies integer quis auctor elit sed vulputate mi sit amet. Quam elementum pulvinar etiam non quam. Nam libero justo laoreet sit amet cursus sit amet. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. At tempor commodo ullamcorper a lacus vestibulum sed arcu non
+          </div>
+
+        </div>
+ <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
