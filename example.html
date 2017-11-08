@@ -20,6 +20,13 @@
   </head>
 
   <body>
+    <h1>Foundation!</h1>
+
+    <!-- Embed media which scales-->
+    <div class="responsive-embed widescreen">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ixjsI15IS2Y" frameborder="0" allowfullscreen></iframe>
+    </div>
+
     <p> Grid system!!</p>
     <div class="grid-x grid-margin-x">
       <!-- You can add a space between your columns using grid-margin-x
@@ -81,11 +88,22 @@
         </div>
 
          <!-- Throwback 2 switches from nlogo -->
+	 <br>
+	<i>Class, digital feedback?</i>
         <div class="switch tiny">
           <input class="switch-input" id="tinySwitch" type="checkbox" name="exampleSwitch">
           <label class="switch-paddle" for="tinySwitch">
           </label>
         </div>
+
+	<br>
+	<i>Class, analog feedback?</i>
+	<div class="slider" data-slider data-initial-start='50' data-end='100'>
+	  <span class="slider-handle"  data-slider-handle role="slider" tabindex="1"></span>
+	  <span class="slider-fill" data-slider-fill></span>
+	  <input type="hidden">
+	</div>	
+
 
          <!-- Tabs!!-->
         <ul class="tabs" data-tabs id="example-tabs">
@@ -123,6 +141,9 @@
           Seems like it'd be cool for defining big words.
         </div>
 
+	<!-- Tooltip-->
+        <p>The <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="Wow look at this alt text!">Tooltip</span> can also help define big words.</p>
+       
         <!-- Orbit-->
         <h1> It's like a mini powerpoint!</h1>
         <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit>
